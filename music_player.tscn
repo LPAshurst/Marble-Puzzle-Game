@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://drfxalkybmcix"]
+
+[ext_resource type="Script" uid="uid://co8mopwpu24yp" path="res://music_player.gd" id="1_fvyft"]
+
+[node name="MusicPlayer" type="Node2D"]
+script = ExtResource("1_fvyft")
+
+[node name="Player" type="AudioStreamPlayer2D" parent="."]
+attenuation = 1.03526

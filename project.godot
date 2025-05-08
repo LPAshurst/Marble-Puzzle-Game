@@ -1,0 +1,24 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Marble-Puzzle-Game"
+run/main_scene="uid://dnmkt82f1l08v"
+config/features=PackedStringArray("4.4", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+MusicPlayer="*res://music_player.tscn"
+
+[display]
+
+window/stretch/mode="canvas_items"
